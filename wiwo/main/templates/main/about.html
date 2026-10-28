@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Про нас{% endblock %}
+
+{% block content %}
+        <div class="features">
+        <h1>Про нас</h1>
+        <p>Сайт создавался 1 человеком, он преднозначен для того, что бы быть в курсе актуалных новостей</p>
+            <a href="{% url 'news' %}"><button class="btn btn-danger">Новое</button></a>
+    </div>
+{% endblock %}
